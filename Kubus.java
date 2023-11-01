@@ -1,6 +1,6 @@
 package pertemuan4;
 
-c class Kubus extends Perhitungan{
+    class Kubus extends Perhitungan{
     private double s;
 
     public Kubus(double s) {
