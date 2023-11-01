@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package pertemuan4;
 
-/**
- *
- * @author ading
- */
+
 public class Balok extends Perhitungan{
     private double p, l, t;
 
@@ -19,13 +12,13 @@ public class Balok extends Perhitungan{
 
     @Override
     public double Volume() {
-        //rumus volume balok = p*l*t
+        //rumus volume balok 
         return p * l * t;
     }
 
     @Override
     public double LuasPermukaan() {
-        //rumus luas permukaan balok = 2*(p*l + p*t + l*t)
+        //rumus luas permukaan balok 
         return 2 * (p * l + p * t + l * t);
     }
 }
